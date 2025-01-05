@@ -1,0 +1,6 @@
+@AspireYarpReverseProxy.Proxy_HostAddress = http://localhost:5243
+
+GET {{AspireYarpReverseProxy.Proxy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

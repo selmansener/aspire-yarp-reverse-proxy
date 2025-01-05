@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireYarpReverseProxy.AppHost", "AspireYarpReverseProxy.AppHost\AspireYarpReverseProxy.AppHost.csproj", "{AEE11DF7-0005-4137-AF59-7A7CCDC86CDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireYarpReverseProxy.ServiceDefaults", "AspireYarpReverseProxy.ServiceDefaults\AspireYarpReverseProxy.ServiceDefaults.csproj", "{AE5B85DC-2990-4960-AEF6-E553FA4D623F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireYarpReverseProxy.Proxy", "AspireYarpReverseProxy.Proxy\AspireYarpReverseProxy.Proxy.csproj", "{E61AAE40-5463-4890-96CC-7E1E279F1DD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireYarpReverseProxy.API", "AspireYarpReverseProxy.API\AspireYarpReverseProxy.API.csproj", "{D2A6990D-0AAC-474D-8A07-C99AE93D46A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEE11DF7-0005-4137-AF59-7A7CCDC86CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE11DF7-0005-4137-AF59-7A7CCDC86CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE11DF7-0005-4137-AF59-7A7CCDC86CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE11DF7-0005-4137-AF59-7A7CCDC86CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE5B85DC-2990-4960-AEF6-E553FA4D623F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE5B85DC-2990-4960-AEF6-E553FA4D623F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE5B85DC-2990-4960-AEF6-E553FA4D623F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE5B85DC-2990-4960-AEF6-E553FA4D623F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E61AAE40-5463-4890-96CC-7E1E279F1DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E61AAE40-5463-4890-96CC-7E1E279F1DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E61AAE40-5463-4890-96CC-7E1E279F1DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E61AAE40-5463-4890-96CC-7E1E279F1DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2A6990D-0AAC-474D-8A07-C99AE93D46A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A6990D-0AAC-474D-8A07-C99AE93D46A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A6990D-0AAC-474D-8A07-C99AE93D46A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A6990D-0AAC-474D-8A07-C99AE93D46A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

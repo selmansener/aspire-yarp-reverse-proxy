@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Sdk Name="Aspire.AppHost.Sdk" Version="9.0.0" />
+
+	<PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>a3d0dfa1-6869-4c54-952e-e41325a4d69f</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.0.0" />
+    <PackageReference Include="Aspire.Hosting.NodeJs" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspireYarpReverseProxy.API\AspireYarpReverseProxy.API.csproj" />
+    <ProjectReference Include="..\AspireYarpReverseProxy.Proxy\AspireYarpReverseProxy.Proxy.csproj" />
+  </ItemGroup>
+
+</Project>
